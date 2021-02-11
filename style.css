@@ -85,9 +85,6 @@ h6 {
 /* Helper Classes end here*/
 
 /* Nav Section Starts Here */
-.homeSec {
-  background-color: #181109;
-}
 .navbar {
   display: flex;
   color: white;
