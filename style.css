@@ -64,7 +64,7 @@ h6 {
 
 .btn-secondary {
   background-color: pink;
-  color: red;
+  color: #e65f78;
   border-color: pink;
 }
 .btn-secondary:hover {
@@ -72,8 +72,8 @@ h6 {
   border-color: #333;
 }
 .btn-secondary:focus {
-  background-color: blue;
-  border-color: blue;
+  background-color: crimson;
+  border-color: crimson;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -111,7 +111,7 @@ h6 {
   font-size: 1.2em;
 }
 .navLinks:hover {
-  color: red;
+  color: #e65f78;
 }
 
 /* Nav Section Ends Here */
@@ -157,7 +157,7 @@ h6 {
   margin: 0px;
 }
 #section-slider .container .row .content-box h2 span {
-  color: rgb(236, 63, 10);
+  color: #e65f78;
   text-transform: uppercase;
 }
 #section-slider .container .row .content-box p {
@@ -166,7 +166,7 @@ h6 {
   color: #fff;
 }
 /* Slider section end here */
-/* Side Box */
+/* Side Box
 .side-box {
   position: fixed;
   top: 40%;
@@ -181,8 +181,8 @@ h6 {
   color: white;
 }
 .side-box i:hover {
-  background-color: tomato;
-}
+  color: #e65f78;
+} */
 
 /* About Section Start here */
 #about-me .img-outer img {
@@ -201,7 +201,7 @@ h6 {
 }
 #about-me .aboutme-content h4 span {
   text-transform: uppercase;
-  color: crimson;
+  color: #e65f78;
 }
 #about-me .aboutme-content .social-icons ul {
   padding: 20px 0px;
@@ -220,7 +220,7 @@ h6 {
   padding: 10px;
 }
 #about-me .aboutme-content .social-icons ul li a i:hover {
-  color: blue;
+  color: #e65f78;
 }
 
 /* About Section End here */
@@ -320,7 +320,7 @@ h6 {
 }
 #clientSec .container .clientIcon i {
   font-size: 20px;
-  color: crimson;
+  color: #e65f78;
 }
 #clientSec .container .client-image img {
   height: 100px;
@@ -377,7 +377,7 @@ h6 {
   color: black;
 }
 #our-work .row .content-nav ul li a:hover {
-  background-color: rgb(223, 41, 78);
+  background-color: #e65f78;
   color: white;
   border-radius: 25px;
 }
@@ -400,7 +400,7 @@ h6 {
 .box:before,
 .box:after {
   content: "";
-  background: #34495e;
+  background: #e65f78;
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -500,7 +500,8 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 .box .icon li a:hover {
-  box-shadow: 3px 3px rgba(255, 255, 255, 0.5);
+  background-color: #333;
+  color: #fff;
 }
 
 /* First Animation Section Ends Here */
@@ -516,7 +517,7 @@ h6 {
   margin: 20px;
 }
 #our-work .container .row .work-imagesbox2 .box2 {
-  background: linear-gradient(#ff0043, #ff0043, transparent);
+  background: linear-gradient(#e65f78, #e65f78, transparent);
   font-family: "Poppins", sans-serif;
   overflow: hidden;
   position: relative;
@@ -639,6 +640,16 @@ h6 {
   border-radius: 15px;
   padding: 10px 5px;
 }
+#our-blog .container .row .col .blog-description h2,
+p {
+  margin: 0px auto;
+}
+#our-blog .container .row .col .blog-description .author {
+  color: #e65f78;
+}
+#our-blog .container .row .col .blog-description .author:hover {
+  color: #333;
+}
 .blog-box {
   font-family: "Poppins", sans-serif;
   outline: 3px solid rgba(0, 0, 0, 0.02);
@@ -650,7 +661,7 @@ h6 {
 .blog-box:hover {
   border-radius: 5px;
   outline-offset: 4px;
-  outline-color: #1dd1a1;
+  outline-color: #e65f78;
 }
 .blog-box:before {
   content: "";
@@ -709,7 +720,7 @@ h6 {
   margin: 0 0 5px;
 }
 .blog-box .blog-post {
-  color: #1dd1a1;
+  color: #e65f78;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -726,7 +737,7 @@ h6 {
   display: inline-block;
 }
 .blog-box .blog-icon li a {
-  color: #1dd1a1;
+  color: #333;
   background-color: #fff;
   font-size: 16px;
   line-height: 50px;
@@ -739,7 +750,7 @@ h6 {
 }
 .blog-box .blog-icon li a:hover {
   color: #fff;
-  background-color: #1dd1a1;
+  background-color: #333;
 }
 
 /* Blog Section Ends here */
@@ -765,10 +776,10 @@ h6 {
 #contactUs .container .row .col .contact-options i {
   font-size: 40px;
   padding: 20px 0px;
-  color: crimson;
+  color: #e65f78;
 }
 #contactUs .container .row .col .contact-options i:hover {
-  color: red;
+  color: crimson;
 }
 #contactUs .container .row .col .contact-options h3 {
   font-size: larger;
@@ -782,9 +793,14 @@ h6 {
   font-size: 20px;
   padding: 10px 15px;
   margin: 40px 8px 0px;
-  color: grey;
   border: 1px solid darkgray;
+  color: grey;
   border-radius: 8px;
+}
+#contactUs .container .row .col .form1 .col-50:focus {
+  outline: none;
+  border: 2px solid #e65f78;
+  box-shadow: 0 0 5px #e65f78;
 }
 #contactUs .container .row .col .form1 .col-100 {
   width: 96%;
@@ -795,9 +811,15 @@ h6 {
   border: 1px solid darkgray;
   border-radius: 8px;
 }
+#contactUs .container .row .col .form1 .col-100:focus {
+  outline: none;
+  border: 2px solid #e65f78;
+  box-shadow: 0 0 5px #e65f78;
+}
 #contactUs .container .row .col .form1 .submitBtn {
   display: flex;
   justify-content: flex-end;
+  margin-top: 40px;
 }
 
 /* Contact Section Ends Here */
@@ -823,6 +845,10 @@ h6 {
 #footerSec .container .row .col .footIcons i {
   background-color: #343434;
   border-radius: 25px;
+  margin: 10px auto;
+}
+#footerSec .container .row .col .footIcons i:hover {
+  color: rgb(0, 153, 255);
 }
 
 /* Footer Section Ends Here */
