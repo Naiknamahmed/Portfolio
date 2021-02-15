@@ -56,11 +56,13 @@ h6 {
   background-color: #e65f78;
   color: #fff;
   border-color: #e65f78;
+  cursor: pointer;
 }
 .btn-primary:focus {
   background-color: crimson;
   color: #fff;
   border-color: crimson;
+  cursor: pointer;
 }
 
 .btn-secondary {
@@ -69,15 +71,17 @@ h6 {
   border-color: #e65f78;
 }
 .btn-secondary:hover {
-  background-color: transparent;
-  border-color: #fff;
+  background-color: #333;
+  border-color: #333;
   color: #fff;
-  box-shadow: 0px 0px 4px 0px #fff;
+  box-shadow: 0px 0px 4px 0px #333;
+  cursor: pointer;
 }
 .btn-secondary:focus {
   background-color: crimson;
   border-color: crimson;
   color: #fff;
+  cursor: pointer;
 }
 @media (max-width: 992px) {
   .row {
@@ -115,6 +119,7 @@ h6 {
 }
 .navLinks:hover {
   color: #e65f78;
+  cursor: pointer;
 }
 
 /* Nav Section Ends Here */
@@ -224,6 +229,7 @@ h6 {
 }
 #about-me .aboutme-content .social-icons ul li a i:hover {
   color: #e65f78;
+  cursor: pointer;
 }
 
 /* About Section End here */
@@ -383,6 +389,7 @@ h6 {
   background-color: #e65f78;
   color: white;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 /* First Animation Section Starts Here */
@@ -652,6 +659,7 @@ p {
 }
 #our-blog .container .row .col .blog-description .author:hover {
   color: #333;
+  cursor: pointer;
 }
 .blog-box {
   font-family: "Poppins", sans-serif;
@@ -783,6 +791,7 @@ p {
 }
 #contactUs .container .row .col .contact-options i:hover {
   color: crimson;
+  cursor: pointer;
 }
 #contactUs .container .row .col .contact-options h3 {
   font-size: larger;
@@ -853,6 +862,7 @@ p {
 }
 #footerSec .container .row .col .footIcons i:hover {
   color: #e65f78;
+  cursor: pointer;
 }
 
 /* Footer Section Ends Here */
