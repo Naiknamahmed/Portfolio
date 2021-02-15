@@ -846,9 +846,10 @@ p {
   background-color: #343434;
   border-radius: 25px;
   margin: 10px auto;
+  color: white;
 }
 #footerSec .container .row .col .footIcons i:hover {
-  color: rgb(0, 153, 255);
+  color: #e65f78;
 }
 
 /* Footer Section Ends Here */
